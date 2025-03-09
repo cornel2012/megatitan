@@ -40,7 +40,7 @@
     "build": "grunt",
     "start": "cd example && py -m http.server",
     "dev": "npm run build && npm run start",
-    "postinstall": "mkdir -p lib && cp node_modules/@types/jquery/index.d.ts lib/jQuery.d.ts"
+    "postinstall": "mkdir -p lib && cp node_modules/@types/jquery/index.d.ts lib/jQuery.d.ts && cp node_modules/@types/three/index.d.ts lib/three.d.ts"
   },
   "author": ""
 }
