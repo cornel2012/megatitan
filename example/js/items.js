@@ -35,7 +35,7 @@ $(document).ready(function() {
         "depth": 100
       }
     }, 
-    {
+    /* {
       "name" : "Chair",
       "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/gus-churchchair-whiteoak.js",
@@ -67,8 +67,8 @@ $(document).ready(function() {
         "height": 750,
         "depth": 600
       }
-    },
-    {
+    }, */
+    /* {
       "name" : "Dresser - Dark Wood",
       "image" : "models/thumbnails/thumbnail_matera_dresser_5.png",
       "model" : "models/js/DWR_MATERA_DRESSER2.js",
@@ -78,8 +78,8 @@ $(document).ready(function() {
         "height": 900,
         "depth": 350
       }
-    }, 
-    {
+    }, */ 
+    /* {
       "name" : "Dresser - White",
       "image" : "models/thumbnails/thumbnail_img25o.jpg",
       "model" : "models/js/we-narrow6white_baked.js",
@@ -89,8 +89,8 @@ $(document).ready(function() {
         "height": 800,
         "depth": 500
       }
-    },  
-    {
+    },  */ 
+   /*  {
       "name" : "Bedside table - Shale",
       "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
       "model" : "models/js/bd-shalebedside-smoke_baked.js",
@@ -111,10 +111,10 @@ $(document).ready(function() {
         "height": 500,
         "depth": 400
       }
-    }, 
+    }, */ 
     {
-      "name" : "Wardrobe - White",
-      "image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
+      "name" : "Cabinet 1",
+      "image" : "models/thumbnails/cabinet_1.png",
       "model" : "models/js/ik-kivine_baked.js",
       "type" : "2",
       "defaultDimensions": {
@@ -124,6 +124,28 @@ $(document).ready(function() {
       }
     }, 
     {
+      "name" : "Cabinet 2",
+      "image" : "models/thumbnails/cabinet_2.png",
+      "model" : "models/js/ik-kivine_baked.js",
+      "type" : "2",
+      "defaultDimensions": {
+        "width": 620,
+        "height": 1120,
+        "depth": 530
+      }
+    }, 
+    {
+      "name" : "Cabinet 3",
+      "image" : "models/thumbnails/cabinet_3.png",
+      "model" : "models/js/ik-kivine_baked.js",
+      "type" : "2",
+      "defaultDimensions": {
+        "width": 620,
+        "height": 430,
+        "depth": 530
+      }
+    }, 
+    /* {
       "name" : "Full Bed",
       "image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
       "model" : "models/js/ik_nordli_full.js",
@@ -133,8 +155,8 @@ $(document).ready(function() {
         "height": 900,
         "depth": 2000
       }
-    }, 
-    {
+    },  */
+    /* {
       "name" : "Bookshelf",
       "image" : "models/thumbnails/thumbnail_kendall-walnut-bookcase.jpg",
       "model" : "models/js/cb-kendallbookcasewalnut_baked.js",
@@ -144,8 +166,8 @@ $(document).ready(function() {
         "height": 2000,
         "depth": 300
       }
-    }, 
-    {
+    },  */
+    /* {
       "name" : "Media Console - White",
       "image" : "models/thumbnails/thumbnail_clapboard-white-60-media-console-1.jpg",
       "model" : "models/js/cb-clapboard_baked.js",
@@ -166,8 +188,8 @@ $(document).ready(function() {
         "height": 500,
         "depth": 400
       }
-    }, 
-    {
+    },  */
+    /* {
       "name" : "Sectional - Olive",
       "image" : "models/thumbnails/thumbnail_img21o.jpg",
       "model" : "models/js/we-crosby2piece-greenbaked.js",
@@ -188,8 +210,8 @@ $(document).ready(function() {
         "height": 850,
         "depth": 900
       }
-    }, 
-    {
+    }, */ 
+    /* {
       "name" : "Wooden Trunk",
       "image" : "models/thumbnails/thumbnail_teca-storage-trunk.jpg",
       "model" : "models/js/cb-tecs_baked.js",
@@ -199,8 +221,8 @@ $(document).ready(function() {
         "height": 400,
         "depth": 500
       }
-    }, 
-    {
+    },  */
+    /* {
       "name" : "Floor Lamp",
       "image" : "models/thumbnails/thumbnail_ore-white.png",
       "model" : "models/js/ore-3legged-white_baked.js",
@@ -276,7 +298,7 @@ $(document).ready(function() {
         "height": 900,
         "depth": 20
       }
-    }
+    } */
    /*     
    {
       "name" : "",
