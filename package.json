@@ -26,14 +26,17 @@
     "grunt-subgrunt": "^1.2.0",
     "grunt-typedoc": "^0.2.4",
     "grunt-typescript": "^0.8.0",
-    "matchdep": "^1.0.1"
+    "matchdep": "^1.0.1",
+    "grunt-cli": "^1.4.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Ekki/blueprint3d.git"
   },
   "scripts": {
-    "build": "browserify src/blueprint3d.js > example/js/blueprint3d.js --verbose"
+    "build": "grunt",
+    "start": "cd example && python -m http.server",
+    "dev": "npm run build && npm run start"
   },
   "author": ""
 }
