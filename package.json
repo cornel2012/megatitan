@@ -28,7 +28,8 @@
     "grunt-typescript": "^0.8.0",
     "matchdep": "^1.0.1",
     "grunt-cli": "^1.4.3",
-    "@types/jquery": "^2.0.0"
+    "@types/jquery": "^2.0.0",
+    "typescript": "~1.8.0"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,8 @@
   "scripts": {
     "build": "grunt",
     "start": "cd example && py -m http.server",
-    "dev": "npm run build && npm run start"
+    "dev": "npm run build && npm run start",
+    "postinstall": "mkdir -p lib && cp node_modules/@types/jquery/index.d.ts lib/jQuery.d.ts"
   },
   "author": ""
 }
