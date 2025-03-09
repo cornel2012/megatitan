@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "browserify": "^8.0.2",
-    "grunt": "^1.0.1",
+    "grunt": "~0.4.5",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
@@ -27,7 +27,8 @@
     "grunt-typedoc": "^0.2.4",
     "grunt-typescript": "^0.8.0",
     "matchdep": "^1.0.1",
-    "grunt-cli": "^1.4.3"
+    "grunt-cli": "^1.4.3",
+    "@types/jquery": "^2.0.0"
   },
   "repository": {
     "type": "git",
