@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "grunt",
-    "start": "cd example && python -m http.server",
+    "start": "cd example && py -m http.server",
     "dev": "npm run build && npm run start"
   },
   "author": ""
