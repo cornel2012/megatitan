@@ -28,9 +28,9 @@
     "grunt-typescript": "^0.8.0",
     "matchdep": "^1.0.1",
     "grunt-cli": "^1.4.3",
-    "@types/jquery": "1.10.35",
+    "@types/jquery": "2.0.32",
     "typescript": "~1.8.0",
-    "typings": "^2.1.1"
+    "@types/three": "0.84.20"
   },
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "build": "grunt",
     "start": "cd example && py -m http.server",
     "dev": "npm run build && npm run start",
-    "postinstall": "typings install dt~jquery --global --save && mkdir -p lib && cp typings/globals/jquery/index.d.ts lib/jQuery.d.ts"
+    "postinstall": "mkdir -p lib && cp node_modules/@types/jquery/index.d.ts lib/jQuery.d.ts"
   },
   "author": ""
 }

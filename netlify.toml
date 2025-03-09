@@ -1,3 +1,3 @@
 [build]
   publish = "example"
-  command = "npm install -g grunt-cli typings && npm install --legacy-peer-deps && npm run postinstall && grunt" 
+  command = "npm install -g grunt-cli && npm install --legacy-peer-deps && npm run postinstall && grunt" 
