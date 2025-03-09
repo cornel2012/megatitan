@@ -1,3 +1,6 @@
 [build]
   publish = "example"
-  command = "npm install -g grunt-cli && npm install --legacy-peer-deps && npm run postinstall && grunt" 
+  command = "npm install && ./node_modules/.bin/grunt"
+
+[build.environment]
+  NODE_VERSION = "14.17.0" 
